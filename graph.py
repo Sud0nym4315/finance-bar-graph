@@ -5,10 +5,11 @@ import numpy as np
 
 
 # Modifiable variables
+bank_file = "yourstatements.csv
 transactions = 25
 
 # Import data
-data = pd.read_csv('./bk_download.csv')
+data = pd.read_csv(bank_file)
 #data.head()
 df = pd.DataFrame(data)
 
