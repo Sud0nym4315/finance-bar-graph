@@ -5,7 +5,7 @@ import numpy as np
 
 
 # Modifiable variables
-bank_file = "yourstatements.csv
+bank_file = "yourstatements.csv"
 transactions = 25
 
 # Import data
@@ -54,11 +54,11 @@ for i in ax.patches:
         color ='red')
 
 # Add Plot Title
-ax.set_title('Previous 25 financial transactions\n~ Kenneth (AKA Davis CFO and python extraordinaire)',
+ax.set_title('Anything you want',
     loc ='left', )
  
 # Add Text watermark
-fig.text(0.9, 0.15, 'Davis Incorporated', fontsize = 12,
+fig.text(0.9, 0.15, 'X Incorporated', fontsize = 12,
     color ='grey', ha ='right', va ='bottom',
     alpha = 0.7)
 ######################################################
